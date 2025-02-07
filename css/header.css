@@ -7,6 +7,10 @@
     z-index: 99;
 }
 
+.header.header-stop {
+    backdrop-filter: blur(10px);
+}
+
 .header-wrapper {
     display: flex;
     justify-content: space-between;

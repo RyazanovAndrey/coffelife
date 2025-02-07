@@ -74,9 +74,7 @@ img {
 }
 
 .home-img {
-    position: relative;
     filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.3));
-    z-index: 88;
 }
 
 .leaf-left {

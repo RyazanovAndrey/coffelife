@@ -1,0 +1,23 @@
+.about {
+    margin-block: 100px;
+}
+
+.about-wrapper {
+    display: flex;
+    align-items: center;
+    column-gap: 140px;
+}
+
+.about-title {
+    font-size: 50px;
+    font-weight: 700;
+    font-family: var( --second-family);
+    color: var(--color-2);
+}
+
+.about-text {
+    margin-top: 60px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: var(--color-2);
+}
