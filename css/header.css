@@ -1,0 +1,34 @@
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding-block: 45px;
+    z-index: 99;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    column-gap: 80px;
+}
+
+.logo {
+    color:  var(--color-1);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.menu-link {
+    color: var(--color-2);
+    transition: .4s;
+}
+
+.menu-link:hover {
+    color: var(--color-1);
+}
