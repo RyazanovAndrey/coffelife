@@ -70,5 +70,5 @@
 
 .promo-slide.swiper-slide.swiper-slide-next {
     scale: 1;
-    filter: drop-shadow(10px 10px 20px #d2b88783);
+    filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.2));
 }

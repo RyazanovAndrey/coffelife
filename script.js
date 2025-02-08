@@ -23,12 +23,13 @@ const animScroll = ScrollReveal({
 })
 
 
-animScroll.reveal('.home-content');
+animScroll.reveal('.home-content, .popular');
 animScroll.reveal('.home-img', {origin: 'bottom', rotate: {z: 15}});
 animScroll.reveal('.leaf-left, .coin-left, .coin-right, .leaf-right', {origin: 'left', delay: 600, interval: 100})
 animScroll.reveal('.coin-right, .leaf-right', {origin: 'right', delay: 600, interval: 100})
-animScroll.reveal('.about-img', {origin: 'left'})
-animScroll.reveal('.about-content', {origin: 'right'})
+animScroll.reveal('.about-img, .history-content', {origin: 'left'})
+animScroll.reveal('.about-content, .history-img', {origin: 'right'})
+animScroll.reveal('.product-card', {delay: 500, interval: 100})
 
 // Swiper Slider
 

@@ -1,0 +1,20 @@
+.history {
+    margin-top: 250px;
+}
+
+.history-wrapper {
+    display: flex;
+    column-gap: 120px;
+    align-items: center;
+}
+
+.history-content-title {
+    font-size: 50px;
+    font-weight: 700;
+    font-family: var(--second-family);
+}
+
+.history-content-text {
+    font-size: 18px;line-height: 1.5;
+    margin-top: 60px;
+}
