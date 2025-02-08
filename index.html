@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
     <title>CoffeLife | Кава, яка надихає</title>
 </head>
 
 <body>
 
-    <header class="header">
+    <header class="header hidden">
         <div class="container">
             <div class="header-wrapper">
                 <a href="#" class="logo">CoffeLife</a>
@@ -26,7 +27,7 @@
     </header>
 
     <main>
-        <section class="home">
+        <section class="home hidden">
             <div class="container">
                 <div class="home-wrapper">
                     <div class="home-content">
@@ -39,31 +40,108 @@
                         </div>
                     </div>
                     <div class="home-img-box">
-                       <img src="image/cup-home.png" alt="" class="home-img"> 
-                       <img src="image/leaf-left.png" alt="" class="leaf-left">
-                       <img src="image/coin-left.png" alt="" class="coin-left">
-                       <img src="image/coin-right.png" alt="" class="coin-right">
-                       <img src="image/leaf-right.png" alt="" class="leaf-right">
+                        <img src="image/cup-home.png" alt="" class="home-img">
+                        <img src="image/leaf-left.png" alt="" class="leaf-left">
+                        <img src="image/coin-left.png" alt="" class="coin-left">
+                        <img src="image/coin-right.png" alt="" class="coin-right">
+                        <img src="image/leaf-right.png" alt="" class="leaf-right">
                     </div>
-                    
+
                 </div>
             </div>
         </section>
-        <section class="about">
+        <section class="about hidden">
             <div class="container">
                 <div class="about-wrapper">
                     <img src="image/about.png" alt="" class="about-img">
                     <div class="about-content">
                         <div class="about-title">Про каву Lavazza</div>
                         <p class="about-text">
-                            Lavazza - це одна з найвідоміших і найпрестижніших італійських марок кави, яка прославилася своєю високою якістю та неповторним смаком. Більше ста років компанія Lavazza є символом італійської кавової культури, пропонуючи широкий асортимент продуктів для найвибагливіших поціновувачів кави. Вона зайняла позицію лідера на світовому ринку, а також стала невід'ємною частиною кавового ринку України.
+                            Lavazza - це одна з найвідоміших і найпрестижніших італійських марок кави, яка прославилася
+                            своєю високою якістю та неповторним смаком. Більше ста років компанія Lavazza є символом
+                            італійської кавової культури, пропонуючи широкий асортимент продуктів для найвибагливіших
+                            поціновувачів кави. Вона зайняла позицію лідера на світовому ринку, а також стала
+                            невід'ємною частиною кавового ринку України.
                         </p>
                     </div>
                 </div>
             </div>
         </section>
+        <section class="popular">
+            <div class="container">
+                <div class="popular-title">Популярна кава</div>
+                <div class="popular-align">
+                    <div class="popular-text">Lavazza пропонує різні типи кави в зернах, які задовольнять
+                        найрізноманітніші уподобання споживачів. Ось деякі з найпопулярніших типів Lavazza в зернах:
+                    </div>
+                </div>
+
+                <div class="promo swiper">
+                    <div class="swiper-wrapper">
+                        <div class="promo-slide swiper-slide">
+                            <div class="promo-card">
+                                <img src="image/itearra.png" alt="" class="promo-img">
+                                <div class="promo-card-wrapper">
+                                    <div class="promo-card-content">
+                                        <div class="promo-card-title">Lavazza iTierra</div>
+                                        <promo-card class="price">950 ₴</promo-card>
+                                    </div>
+                                    <div class="btn-add">
+                                        <i class="ri-shopping-bag-4-line"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="promo-slide swiper-slide">
+                            <div class="promo-card">
+                                <img src="image/espresso.png" alt="" class="promo-img">
+                                <div class="promo-card-wrapper">
+                                    <div class="promo-card-content">
+                                        <div class="promo-card-title">Lavazza iTierra</div>
+                                        <promo-card class="price">950 ₴</promo-card>
+                                    </div>
+                                    <div class="btn-add">
+                                        <i class="ri-shopping-bag-4-line"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="promo-slide swiper-slide">
+                            <div class="promo-card">
+                                <img src="image/crema.png" alt="" class="promo-img">
+                                <div class="promo-card-wrapper">
+                                    <div class="promo-card-content">
+                                        <div class="promo-card-title">Lavazza iTierra</div>
+                                        <promo-card class="price">950 ₴</promo-card>
+                                    </div>
+                                    <div class="btn-add">
+                                        <i class="ri-shopping-bag-4-line"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="promo-slide swiper-slide">
+                            <div class="promo-card">
+                                <img src="image/itearra.png" alt="" class="promo-img">
+                                <div class="promo-card-wrapper">
+                                    <div class="promo-card-content">
+                                        <div class="promo-card-title">Lavazza iTierra</div>
+                                        <promo-card class="price">950 ₴</promo-card>
+                                    </div>
+                                    <div class="btn-add">
+                                        <i class="ri-shopping-bag-4-line"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
     </main>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script type="module" src="script.js"></script>
 </body>

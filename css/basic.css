@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: var(--font-family);
     background-color: var(--color-main);
@@ -9,4 +13,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding-inline: 15px;
+}
+.hidden {
+    display: none;
 }

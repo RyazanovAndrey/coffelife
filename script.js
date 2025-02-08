@@ -1,3 +1,5 @@
+// Header blur
+
 const headerBox = document.querySelector('.header')
 
 window.addEventListener('scroll', () => {
@@ -10,6 +12,8 @@ window.addEventListener('scroll', () => {
     }
 })
 
+// Scroll Reveal
+
 const animScroll = ScrollReveal({
     origin: 'top',
     distance: '60px',
@@ -18,9 +22,18 @@ const animScroll = ScrollReveal({
     reset: true
 })
 
+
 animScroll.reveal('.home-content');
 animScroll.reveal('.home-img', {origin: 'bottom', rotate: {z: 15}});
 animScroll.reveal('.leaf-left, .coin-left, .coin-right, .leaf-right', {origin: 'left', delay: 600, interval: 100})
 animScroll.reveal('.coin-right, .leaf-right', {origin: 'right', delay: 600, interval: 100})
 animScroll.reveal('.about-img', {origin: 'left'})
 animScroll.reveal('.about-content', {origin: 'right'})
+
+// Swiper Slider
+
+const swiper = new Swiper('.swiper', {
+    loop: true,
+    slidesPerView: 3,
+    grabCursor: true,
+  });
