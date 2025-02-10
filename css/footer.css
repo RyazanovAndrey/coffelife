@@ -1,0 +1,29 @@
+.footer {
+    color: var(--color-2);
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 140px;
+}
+
+.footer-logo {
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--color-1);
+}
+
+.footer-copywrite {
+    font-size: 20px;
+}
+
+.footer-link {
+    font-size: 20px;
+}
+
+.footer-link a {
+    text-decoration: underline;
+    color: var(--color-1);
+}

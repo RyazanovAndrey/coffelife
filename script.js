@@ -23,7 +23,7 @@ const animScroll = ScrollReveal({
 })
 
 
-animScroll.reveal('.home-content, .popular');
+animScroll.reveal('.home-content, .popular, .contacts, .footer');
 animScroll.reveal('.home-img', {origin: 'bottom', rotate: {z: 15}});
 animScroll.reveal('.leaf-left, .coin-left, .coin-right, .leaf-right', {origin: 'left', delay: 600, interval: 100})
 animScroll.reveal('.coin-right, .leaf-right', {origin: 'right', delay: 600, interval: 100})

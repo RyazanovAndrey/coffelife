@@ -1,0 +1,22 @@
+.contacts {
+    margin-top: 200px;
+    font-size: 20px;
+    color: var(--color-3);
+}
+
+.contacts-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacts-icon {
+    margin-block: 60px;
+}
+
+.contacts-title {
+    font-size: 50px;
+    font-weight: 700;
+    font-family: var(--second-family);
+    color: var(--color-2);
+}
